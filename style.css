@@ -1,0 +1,426 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/*----------------------------------------*/
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 1px solid #e2e2e2;
+    padding: 13px 0;
+}
+header img {
+    width: 150px;
+}
+
+/*--------------------------------*/
+
+.login {
+    font-family: 'Libre Franklin', sans-serif;
+    color: #326891;
+    font-size: 10px;
+    padding: 15px;
+    text-align: right;
+}
+
+/*----------------------------------*/
+
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    font-style: italic;
+    color: #121212;
+    margin: 15px 20px;
+    border-bottom: 1px solid #e2e2e2;
+    line-height: 36px;
+    padding-bottom: 20px;
+}
+
+/*------------------------------------------*/
+
+.text-main, h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+    color: #333333;
+    line-height: 25px;
+    margin: 0 20px 20px;
+}
+.text-main a {
+    color: #326891;
+    text-decoration: underline;
+}
+h2 {
+    font-weight: bold;
+}
+
+/*--------------------------------------------*/
+
+figure img {
+    width: 100%;
+}
+figcaption, .videocaption {
+    font-size: 14px;
+    color: #666666;
+    line-height: 18px;
+    margin: 10px 20px 20px;
+}
+figcaption span, .videocaption span {
+    font-size: 12px;
+    color: #888888;
+}
+iframe {
+    width: 100vw;
+    height: 60vw;
+}
+
+/*---------------------------------------*/
+
+.inflation {
+    margin: 20px;
+}
+h3 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: #000;
+    margin-bottom: 5px;
+}
+.inflation p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 14px;
+    color: #666666;
+    line-height: 18px;
+    margin-bottom: 10px;
+}
+.line {
+    width: 20%;
+    border-bottom: 1px solid #000;
+    margin-bottom: 20px;
+}
+.larry {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #333333;
+    margin-bottom: 40px;
+}
+.theory {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.item {
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 14px;
+    line-height: 17px;
+    font-weight: 300;
+    color: #333;
+    width: 47%;
+    padding-top: 120px;
+    margin-bottom: 30px;
+    background-repeat: no-repeat;
+    background-size: 100% 25%;
+}
+.item span {
+    font-size: 11px;
+    font-weight: bold;
+    color: #000;
+}
+.item1 {
+    background-image: url("images/inf1.png");
+}
+.item2 {
+    background-image: url("images/inf2.png");
+}
+.item3 {
+    background-image: url("images/inf5.png");
+}
+.item4 {
+    background-image: url("images/inf6.png");
+}
+
+/*----------------------------------------*/
+
+.editor {
+    margin: 10px 20px 30px 20px;
+    border-top: 1px solid #e2e2e2;
+    border-bottom: 1px solid #e2e2e2;
+    padding-bottom: 20px;
+}
+.editor-title {
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 13px;
+    color: #999999;
+    font-weight:bold;
+    padding: 10px 0 20px;
+}
+.editor ul {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: scroll;
+}
+.editor li {
+    width: 200px;
+    flex-shrink: 0;
+    border-right: 1px solid #e2e2e2;
+    padding-right: 20px;
+    padding-left: 10px;
+}
+.editor li:last-child {
+    border-right: none;
+}
+.editor a {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+    color: #121212;
+    display: block;
+    margin-bottom: 5px;
+}
+.editor span {
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 12px;
+    color: #999999;  
+}
+
+/*------------------------------------------*/
+
+.social {
+    margin: 10px 20px 20px 20px;
+    display: flex;
+}
+.social i {
+    margin-right: 15px;
+}
+.social .round {
+    background-color: #eeeeee;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    border-radius: 50%;
+}
+.social .far {
+    font-size: 1.7rem;
+}
+.social .fa-comment-alt {
+    position: relative;
+}
+.social .fa-comment-alt span {
+    position: absolute;
+    top: 6px;
+    left: 5px;
+    font-size: 10px;
+    font-family: 'Libre Franklin', sans-serif;
+    color: #000;
+}
+
+/*------------------------------------*/
+
+.dennis {
+    margin: 10px 20px 20px;
+    font-size: 14px;
+    font-family: 'Libre Franklin', sans-serif;
+    color: #333;
+    font-weight: bold;
+}
+.data {
+    margin: 0 20px 30px 20px;
+    font-size: 13px;
+    font-family: 'Libre Franklin', sans-serif;
+    color: #333;
+}
+.social-end {
+    margin-bottom: 50px;
+}
+.read {
+    margin: 10px 20px 20px;
+    font-size: 13px;
+    font-family: 'Libre Franklin', sans-serif;
+    color: #fff;
+    font-weight: bold;
+    background-color: #567b95;
+    padding: 10px;
+    text-align: center;
+    border-radius: 3px;
+}
+.note {
+    margin: 20px;
+    font-size: 12px;
+    font-family: 'Libre Franklin', sans-serif;
+    color: #666;
+    line-height: 18px;
+}
+.note a {
+    text-decoration: underline;
+}
+
+/*----------------------------------------*/
+
+.cooking {
+    display: flex;
+    align-items: flex-start;
+    margin: 30px 20px 40px;
+    border-top: 1px solid #e2e2e2;
+    padding-top: 15px;
+} 
+.cooking-left {
+    font: italic 17px/24px Georgia, 'Times New Roman', Times, serif;
+    color: #333;
+}
+.cooking-left span {
+    font: normal 14px/18px 'Libre Franklin', sans-serif;
+    font-weight: bold;
+}
+.cooking-right {
+    font: 14px/20px 'Libre Franklin', sans-serif;
+    color: #000;
+    font-weight: bold;
+    border: 1px solid #000;
+    width: 60px;
+    padding: 5px;
+    flex-shrink: 0;
+    text-align: center;
+    margin-left: 10px;
+}
+
+/*-----------------------------------------------*/
+
+.subscribe {
+    margin: 0 20px 20px;
+    font: 15px/19px 'Libre Franklin', sans-serif;
+    font-weight: bold;
+    color: #333;
+    text-align: center;
+}
+.subscribe .ruler {
+    padding: 20px 100px;
+}
+.subscribe hr {
+    color: #e2e2e2;
+    background-color: #e2e2e2;
+    height: 1px;
+    border: none;
+}
+.subscribe a {
+    color: #326891;
+}
+
+/*----------------------------------------------*/
+
+.copy {
+    font: 11px 'Libre Franklin', sans-serif;
+    color: #666;
+    text-align: center;
+}
+
+/*-----------------------------------------*/
+
+.links {
+    margin: 20px 20px 50px 20px;
+    padding: 0;
+    list-style-type: none;
+    font: 11px 'Libre Franklin', sans-serif;
+    color: #666;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.links li {
+    margin: 5px 3px;
+}
+
+/*-----------------------------------------*/
+
+h4 {
+    font: 17px 'Libre Franklin', sans-serif;
+    color: #333;
+    font-weight: bold;
+    margin: 0 20px;
+    padding: 20px 0;
+    border-top: 2px solid #333; 
+}
+
+/*--------------------------------------*/
+
+.newsletter {
+    margin: 0 20px 20px 20px;
+    padding: 15px;
+    border: 1px solid #e2e2e2;
+    display: grid;
+    grid-template-columns: 30% 1fr;
+    grid-template-rows: 1fr;
+    column-gap: 15px;
+    position: relative;
+    font: 14px/18px 'Libre Franklin', sans-serif;
+    color: #333333;
+}
+.newsletter img {
+    width: 100%;
+}
+.description > div:first-of-type {
+    color: #666;
+    font-size: 11px;
+}
+.description > div:nth-of-type(2) {
+    font-weight: bold;
+    padding: 5px 0;
+}
+.description > div:last-of-type {
+    font-weight: bold;
+    margin-top: 15px;
+}
+.description > div:last-of-type a {
+    font-weight: bold;
+    color: #3E7197;
+    font-size: 13px;
+}
+.newsletter > div:last-of-type {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #333;
+    border-radius: 50%;
+    top: 15px;
+    right: 15px;
+    font-size: 30px;
+    text-align: center;
+    line-height: 30px;
+}
+
+/*-------------------------------------------*/
+
+h5 {
+    font: 12px 'Libre Franklin', sans-serif;
+    color: #000; 
+    font-weight: bold; 
+    padding: 20px 0;
+    margin: 0 20px;
+    border-top: 1px solid #000;
+}
+.more {
+    margin: 0 20px;
+    padding: 20px 0;
+    border-top: 1px solid #e2e2e2;
+    display: grid;
+    grid-template-columns: 1fr 25%;
+    grid-column-gap: 20px;
+}
+.more img {
+    width: 100%;
+}
+.more-title {
+    font: 18px/22px Georgia, 'Times New Roman', Times, serif;
+    color: #121212;
+}
+.more-date {
+    font: 10px 'Libre Franklin', sans-serif;
+    color: #999;
+    margin-top: 5px;
+}
+
