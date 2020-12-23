@@ -9,15 +9,24 @@ a {
 
 /*----------------------------------------*/
 
-header {
+header .logo {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     border-bottom: 1px solid #e2e2e2;
     padding: 13px 0;
 }
 header img {
-    width: 150px;
+    width: 200px;
+}
+header .logo a:first-of-type {
+    margin-left: 20px;
+}
+header .logo a:last-of-type {
+    margin-right: 20px;
+}
+header .logo span {
+    display: none;
 }
 
 /*--------------------------------*/
@@ -121,10 +130,10 @@ h3 {
     font-weight: 300;
     color: #333;
     width: 47%;
-    padding-top: 120px;
+    padding-top: 150px;
     margin-bottom: 30px;
     background-repeat: no-repeat;
-    background-size: 100% 25%;
+    background-size: 100%;
 }
 .item span {
     font-size: 11px;
@@ -329,7 +338,7 @@ h3 {
     color: #666;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: center;
 }
 .links li {
     margin: 5px 3px;
@@ -399,8 +408,7 @@ h5 {
     font: 12px 'Libre Franklin', sans-serif;
     color: #000; 
     font-weight: bold; 
-    padding: 20px 0;
-    margin: 0 20px;
+    padding: 20px;
     border-top: 1px solid #000;
 }
 .more {
@@ -423,4 +431,101 @@ h5 {
     color: #999;
     margin-top: 5px;
 }
+h5+div.more  {
+    grid-template-columns: 1fr;
+    border-top: none;
+    padding-top: 0;
+}
+h5+div.more .more-title {
+    font-size: 21px;
+}
+h5+div.more figcaption {
+    font: 10px Georgia, 'Times New Roman', Times, serif;
+    color: #999;
+    text-align: right;
+}
+h5+div.more figure {
+    order: -1;
+    margin: 0 -20px;
+}
 
+/*--------------------------------------------------*/
+
+footer {
+    border-top: 3px solid #e2e2e2;
+}
+footer>div:first-of-type {
+    margin-top: 1px;
+    border-top: 1px solid #e2e2e2;
+    padding: 10px 20px;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+footer>div:first-of-type img {
+    width: 150px;
+}
+footer>div:first-of-type a {
+    font: 11px 'Libre Franklin', sans-serif;
+    color: #567b95;
+}
+ul.navbar {
+    list-style-type: none;
+    padding: 0 20px;
+    border-bottom: 1px solid #e2e2e2;
+    margin-bottom: 10px;
+}
+ul.navbar li {
+    border-top: 1px solid #e2e2e2;
+    padding: 15px 0;
+    font: 13px 'Libre Franklin', sans-serif;
+    color: #333;
+    font-weight: bold;
+}
+
+/*-------------------------------------------*/
+
+@media screen and (min-width: 600px) {
+   header img {
+       width: 230px;
+   }
+}
+@media screen and (min-width: 800px) {
+
+}
+@media screen and (min-width: 1100px) {
+    header .logo .fa-user {
+        display: none;
+    }
+    header .logo span {
+        display: inline-block;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+    }
+    header {
+        display: flex;
+        justify-content: space-between;
+        border-bottom: 1px solid #e2e2e2;
+    }
+    header .logo {
+        border-bottom: none;
+    }
+}
+/*
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 1px solid #e2e2e2;
+    padding: 13px 0;
+}
+header img {
+    width: 150px;
+}
+.login {
+    font-family: 'Libre Franklin', sans-serif;
+    color: #326891;
+    font-size: 10px;
+    padding: 15px;
+    text-align: right;
+}
+*/
